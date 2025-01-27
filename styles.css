@@ -111,6 +111,7 @@ button i {
     font-weight: bold;
     color: #ff6347;
 }
+
 /* Media queries para hacer la página responsive */
 @media (max-width: 768px) {
     #pokeCard {
@@ -143,3 +144,4 @@ button i {
         margin-top: 10px;
     }
 }
+
