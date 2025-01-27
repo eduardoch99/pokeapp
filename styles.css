@@ -111,3 +111,35 @@ button i {
     font-weight: bold;
     color: #ff6347;
 }
+/* Media queries para hacer la página responsive */
+@media (max-width: 768px) {
+    #pokeCard {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-details {
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #pokeCard img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
